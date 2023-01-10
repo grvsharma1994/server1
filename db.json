@@ -1,18 +1,36 @@
 {
+  "admin":[
+    {
+    "id":1,
+    "email" :"eve.holt@reqres.in",
+    "password" :"cityslicka"
+    }
+  ],
+    "user":[
+      {
+        "id":1,
+        "username":"grvsharma",
+        "email":"grvsharma2023@gmail.com",
+        "password":"12345",
+        "repassword":"12345"
+     }
+    ],
   "dogs": [
     {
       "id": 1,
       "name": "Cherry",
       "age": 2,
       "place": "Visakhapatnam",
-      "gender": "Male"
+      "gender": "Male",
+      "image_url":"https://upload.wikimedia.org/wikipedia/commons/4/43/Cute_dog.jpg"
     },
     {
       "id": 1,
       "name": "Tommy",
       "age": 3,
       "place": "Banglore",
-      "gender": "Female"
+      "gender": "Female",
+      "image_url":"https://upload.wikimedia.org/wikipedia/commons/4/43/Cute_dog.jpg"
     }
   ]
 }
